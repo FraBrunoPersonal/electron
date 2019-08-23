@@ -1,0 +1,29 @@
+body{
+  padding: 5%;
+}
+.hide {
+  /*visibility: hidden;*/
+  display: none;
+}
+#sub{
+  width: 200px;
+}
+.screen{
+  padding: 5%;
+  padding-top: 2.5%;
+}
+#tit{
+  padding-bottom: 1.5%;
+}
+
+table, tr{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+}
+
+.dim{
+  width: 300px;
+  
+}
