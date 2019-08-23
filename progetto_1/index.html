@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>School Average</title>
+  <script src="assets/script.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+</head>
+
+<body>
+  <!--
+  <h1 align="center" id="title">Calcolatrice</h1>
+  <h3 align="center" id="sub-title">Inserire di seguito i propri voti con il loro peso</h3>
+-->
+  <div class="screen">
+    <h2 class="ui center aligned icon header" id="tit">
+      <i class="university icon"></i>
+      School Average
+    </h2>
+    <div class="ui divider"></div>
+    <div id="compile">
+      <div class="ui form" id="abId0.776616807615754">
+        <div class="three fields" id="abId0.7974438709704554" abineguid="13876C79B8DF47DEBE2CEBE4B8999ECE">
+          <div class="field" id="abId0.9918354212916591">
+            <label>First name</label>
+            <input type="text" placeholder="First Name" id="na">
+          </div>
+          <div class="field" id="abId0.0681566969465659">
+            <label>Last name</label>
+            <input type="text" placeholder="Last Name" id="sur">
+          </div>
+          <div class="field" id="abId0.0681566969465659">
+            <label>School</label>
+            <input type="text" placeholder="School" id="scho">
+          </div>
+        </div>
+        <div class="field dim" id="abId0.0681566969465659">
+          <label>Number of Votes</label>
+          <input type="text" placeholder="Number of Votes" id="vote">
+        </div>
+      </div>
+      <div class="ui divider"></div>
+      <div class="ui buttons">
+        <button class="ui button" onclick="change()">Continue</button>
+        <div class="or"></div>
+        <button class="ui positive button" onclick="changeSave()">Save & Continue</button>
+      </div>
+    </div>
+
+    <div id="sub" class="hide">
+      <div class="ui segment">
+        <div class="ui two column very relaxed grid">
+          <div class="column">
+            <p>Vote</p>
+          </div>
+          <div class="column">
+            <p>Weight</p>
+          </div>
+        </div>
+        <div class="ui vertical divider">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
